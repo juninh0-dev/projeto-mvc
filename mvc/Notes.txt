@@ -1,0 +1,30 @@
+----------------- Anotações de MVC -----------------
+
+https://devclass.com.br/curso/
+
+curso = Controller
+// O que vem depois do curso são as action/métodos
+// E o que vem depois dos métodos são os parâmetros
+
+-- Métodos --
+index - quando carrega o controller e não passo o método
+
+show - quando quero pegar um registro em especifico
+
+edit - mostra formulário para atualizar registro
+
+update - atualiza o registro do banco
+
+create - mostrar o registro do banco
+
+store - Cadastrar registro no banco
+
+destroy - deletar registro do banco ou logout do sistema 
+
+==== MVC ====
+Models - Serve para trabalhar com o banco de dados
+Views - Trabalha com os templates com o que o usuário vai ver na tela
+Controllers - Vai servir para gerenciar tudo isso
+
+//O comando a baixo serve par otimizar o autoload
+sudo composer dump-autoload -o
