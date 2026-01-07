@@ -1,8 +1,12 @@
 {
     "autoload": {
         "psr-4": {
-            "app\\":"app",
-            "core\\":"core"
+            "app\\": "app",
+            "core\\": "core"
         }
+    },
+    "require": {
+        "twig/twig": "^3.22",
+        "symfony/twig-bridge": "^7.4"
     }
 }

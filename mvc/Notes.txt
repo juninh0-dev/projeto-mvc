@@ -28,3 +28,8 @@ Controllers - Vai servir para gerenciar tudo isso
 
 //O comando a baixo serve par otimizar o autoload
 sudo composer dump-autoload -o
+
+-- URI --
+
+// https://www.devclass.com.br/curso/show/12/23
+[Essa parte seria o URL] - [ Essa parte seria o URI]
