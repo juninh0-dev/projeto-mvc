@@ -33,3 +33,8 @@ sudo composer dump-autoload -o
 
 // https://www.devclass.com.br/curso/show/12/23
 [Essa parte seria o URL] - [ Essa parte seria o URI]
+
+// https://www.devclass.com.br/curso/?page=12 -> Trabalhando com paginação
+
+-- Por que eu não posso trabalhar só com isso aqui return parse_url($_SERVER['REQUEST_URI'])
+Eu preciso trabalhar com o PHP_URL_PATH, Ele ignora o "?","page""=" o "12" e vai pegar só o "curso"(Controller)
