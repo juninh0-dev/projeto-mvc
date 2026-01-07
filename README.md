@@ -1,4 +1,4 @@
-# 📘 Aula 01 – Introdução ao MVC
+# 📘 Introdução ao MVC
 
 ## 📌 O que é MVC?
 
